@@ -8,8 +8,16 @@ using System.Threading.Tasks;
 //namespace adalah nama project
 namespace KASIR
 {
+    /// <summary>
+    /// main class
+    /// </summary>
+    /// <remaks>class KasirCafe dapat membuat operasi args</remaks>
     public class KasirCafe
     {
+        /// <summary>
+        /// operasi pertambahan
+        /// </summary>
+        /// <param name="args">angka pertama dalam operasi pertambahan</param>
         public static void Main(string[] args)
         {
             //Pembuka
@@ -220,6 +228,7 @@ namespace KASIR
                 //2. input quantity
 
                 Console.WriteLine();
+                //Display 'Masukkan Quantitasnya: '
                 Console.Write("Masukkan Quantity :");
                 //Convert toByte adalah mengganti suatu type data menjadi type data Byte
                 quantity = Convert.ToByte(Console.ReadLine());
@@ -235,7 +244,7 @@ namespace KASIR
                 Console.WriteLine("    Total harga : Rp{0}", totalHarga.ToString());
 
                 //5. input Tunai
-
+                //Display 'Masukkan Tunai Pembayaran: '
                 Console.Write("      Tunai  :Rp");
                 //Convert ToInt32 mengganti suatu type data menjadi type data integer
                 tunai = Convert.ToUInt32(Console.ReadLine());
