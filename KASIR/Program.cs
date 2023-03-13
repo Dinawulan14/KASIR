@@ -5,6 +5,7 @@ using System.IO;
 using System.Text;
 using System.Threading.Tasks;
 
+//namespace adalah nama project
 namespace KASIR
 {
     public class KasirCafe
